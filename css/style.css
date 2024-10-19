@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+.df{
+    display: flex;
+}
+/* navbar  */
+
+nav{
+    background: #000000;
+    border-bottom: 1px solid #7D7373;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.navbar-links{
+    gap: 20px;
+    font-size: 16px;
+}
+.btn{
+    border: 2px solid #06600F;
+    background: #0A9418;
+    border-radius: 4px;
+    padding: 8px 11px 8px 18px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.navbar-2{
+    padding: 0;
+    height: 65px;
+}
+.navbar-2 a{
+    padding: 22px 14px;
+
+}
+.navbar-2 a:hover{
+    background: #69CF17;
+
+}
+/* navbar end */
+/* header */
+
+header{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.head{
+    font-size: 72px;
+    color: #69CF17;
+
+}
+header span{
+    color: #69CF17;
+    font-size: 36px;
+    margin: 18px 0;
+}
+header p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-price{
+    padding: 33px 76px;
+    font-size: 50px;
+    background: #69CF17;
+    border: none;
+    font-weight: 400;
+}
+.header-button{
+    background: linear-gradient(to right , #69CF17, #417D11);
+    border: none;
+    padding: 15px 68px;
+}
+/* header end */
+
+/* card */
+.card-links{
+    padding: 21px;
+    background: #292929;
+}
+.card-links ul{
+    display: flex;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    background: #3d3d3d;
+    gap: 30px;
+}
+
+.card{
+    padding: 15px;
+    width: 300px;
+    height: 524px;
+    border-radius: 4px;
+    background: #0C0C0C;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: 325px;
+}
+.card h4{
+    font-size: 19px;
+    line-height: 15px;
+    margin: 15px 0;
+}
+.card p{
+    opacity: 0.5;
+    font-size: 19px;
+    line-height: 25px;
+}
+.xira{
+    width: 300px;
+    height: 310px;
+    background: #69CF17;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.xira:hover{
+    opacity: 0.8;
+}
+
+    
+/* card end */
+
+/* lokatsiya */
+.lokatsiya{
+    padding-top: 20px;
+}
+.lokatsiya h2{
+    text-align: center;
+    color: #69CF17;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 40px;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+/* lokatsiya end */
+/* footer */
+
+footer{
+    padding: 30px 0 0 0;
+    background: linear-gradient(to bottom , #000000, #69CF17);
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 81px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.footer-links{
+    display: flex;
+    gap: 20px;
+}
+
+/* footer end */
